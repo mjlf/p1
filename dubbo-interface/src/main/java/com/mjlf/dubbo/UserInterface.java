@@ -1,5 +1,7 @@
 package com.mjlf.dubbo;
 
+import com.mjlf.dubbo.entity.User;
+
 /**
  * @ClassName UserInterface
  * @Author mjlft
@@ -10,4 +12,6 @@ package com.mjlf.dubbo;
 public interface UserInterface {
 
     String getName(String name);
+
+    User getUser(int id);
 }
