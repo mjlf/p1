@@ -9,14 +9,11 @@ package com.mjlf.design.factory.method;
  */
 public class Store {
     public static void main(String[] args) {
-        BJFactory bjFactory = new BJFactory();
-        ShangHaiFactory shangHaiFactory = new ShangHaiFactory();
 
-        Order order = new Order();
-        order.setAbsFactory(bjFactory);
-        order.order("china");
+        BJOrder bjOrder = new BJOrder();
+        bjOrder.order("china");
 
-        order.setAbsFactory(shangHaiFactory);
-        order.order("china");
+        ShanghaiOrder shangHaiFactory = new ShanghaiOrder();
+        shangHaiFactory.order("china");
     }
 }
