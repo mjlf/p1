@@ -17,6 +17,7 @@ public class Client {
         System.out.println(inatanceB.clone());
 
         System.out.println(instance.hashCode());
-        System.out.println(inatanceB.getInstance().hashCode());
+        System.out.println(inatanceB.copyInstanceB().getInstance().hashCode());
+        System.out.println(inatanceB.copyInstanceB());
     }
 }

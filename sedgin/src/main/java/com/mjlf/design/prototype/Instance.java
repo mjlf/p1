@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @Author mjlft
  * @Date 2020/11/20 12:30
  * @Version 1.0
- * @Description TODO
+ * @Description 浅拷贝
  */
 
 public class Instance implements Serializable, Cloneable {
