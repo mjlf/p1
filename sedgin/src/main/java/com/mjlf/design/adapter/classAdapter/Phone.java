@@ -8,9 +8,9 @@ package com.mjlf.design.adapter.classAdapter;
  * @Description TODO
  */
 public class Phone {
-    private Adapter adapter;
+    private IVlagter5 adapter;
 
-    public void setAdapter(Adapter adapter) {
+    public void setAdapter(IVlagter5 adapter) {
         this.adapter = adapter;
     }
 
