@@ -1,0 +1,16 @@
+server:
+  port: 8070
+spring:
+  application:
+   name: example
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.101.131:8848
+        group: DEFAULT_GROUP
+        file-extension: yml
+        namespace: f13a149e-7fe4-42c2-8a45-3642789ef7c8
+      discovery:
+        server-addr: 192.168.101.131:8848
+  main:
+    log-startup-info: true
