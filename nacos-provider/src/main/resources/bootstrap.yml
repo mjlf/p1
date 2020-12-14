@@ -10,6 +10,16 @@ spring:
         group: DEFAULT_GROUP
         file-extension: yml
         namespace: f13a149e-7fe4-42c2-8a45-3642789ef7c8
+        extension-configs[0]:
+          data-id: blade.yml
+          group: DEFAULT_GROUP
+          namespace: f13a149e-7fe4-42c2-8a45-3642789ef7c8
+          refresh: true
+        shared-configs[0]:
+          data-id: blade.yml
+          group: DEFAULT_GROUP
+          namespace: f13a149e-7fe4-42c2-8a45-3642789ef7c8
+          refresh: true
       discovery:
         server-addr: 192.168.101.131:8848
   main:
